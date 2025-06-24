@@ -16,18 +16,9 @@ This Power BI dashboard analyzes customer churn data to uncover insights and tre
 ## 📌 Key Features
 
 - 📉 **Churn Breakdown**: Shows the proportion of churned vs. non-churned customers
-- 🔍 **Dynamic Filters**: Slicers for gender, partner/dependents, internet service, contract type, and payment method
+- 🔍 **Dynamic Filters**: Slicers for gender, contract type, and months subscribed
 - 📊 **Monthly Charges Distribution**: Visual comparison of charges across churn categories
-- 🧠 **Insights Panel**: Key business observations with actionable recommendations
 - 📅 **Account Info Analysis**: Correlation between tenure length, contract type, payment method and churn behavior
-
----
-
-## 🛠️ Data Preparation
-
-- Null values handled using replacement with appropriate aggregates
-- Converted **churn status** into numerical categories (0: No, 1: Yes)
-- Transformed text categories (like payment method, internet service) into slicers for interactivity
   
 ---
 
